@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+.kilo/node_modules/
+
+# Package files
+.kilo/package-lock.json
+
+# Plans directory (contains implementation plans, not for public repo)
+.kilo/plans/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp

@@ -1,0 +1,13 @@
+{
+  "description": "Evaluation metadata for the India Startup Validator skill.",
+  "assertions": [
+    "The skill produces a clear go/no-go/pivot verdict.",
+    "The analysis includes India-specific regulatory and distribution analysis.",
+    "Claims are labeled according to the honesty protocol (e.g., [Data], [Assumption]).",
+    "A 30-day validation plan with concrete experiments is provided.",
+    "INR pricing and local benchmarks are used for unit economics.",
+    "The pre-flight check covers incumbent, platform, regulatory, willingness-to-pay, distribution, unit economics, and prior-failure risks.",
+    "The verdict includes measurable kill or pivot criteria.",
+    "Funding and execution recommendations distinguish bootstrapping, grants, accelerators, angels, strategic partnerships, and institutional funding."
+  ]
+}

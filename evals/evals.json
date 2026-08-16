@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Fintech Lending Case",
+    "prompt": "Validate my idea for a digital lending platform for small Kirana stores in Tier 2 cities in India.",
+    "expected_outputs": [
+      "RBI",
+      "NBFC",
+      "KYC",
+      "Kirana",
+      "Tier 2",
+      "UPI"
+    ]
+  },
+  {
+    "name": "Edtech Tier 2 Case",
+    "prompt": "I want to build an AI-powered math tutor for students in Tier 3 cities in India. The price will be ₹200/month. Validate it.",
+    "expected_outputs": [
+      "Tier 3",
+      "ARPU",
+      "₹200",
+      "Language",
+      "Affordability",
+      "Trust"
+    ]
+  },
+  {
+    "name": "Healthtech Data Case",
+    "prompt": "Evaluate a health monitoring wearable for elderly people in India that syncs data to a mobile app.",
+    "expected_outputs": [
+      "DPDP Act",
+      "Health Data",
+      "Telemedicine",
+      "Trust",
+      "Elderly"
+    ]
+  },
+  {
+    "name": "Low-ARPU B2C Case",
+    "prompt": "Validate a ₹99/month consumer app for budget-conscious Indian households. The plan depends on Instagram ads and high user volume.",
+    "expected_outputs": [
+      "CAC",
+      "ARPU",
+      "Churn",
+      "Support",
+      "Unit Economics",
+      "Payback"
+    ]
+  },
+  {
+    "name": "WhatsApp SMB Case",
+    "prompt": "Validate a WhatsApp-first inventory and payments assistant for small Indian retailers. I plan to acquire users through local trade communities.",
+    "expected_outputs": [
+      "WhatsApp",
+      "Platform dependency",
+      "MSME",
+      "Willingness to pay",
+      "Distribution",
+      "UPI"
+    ]
+  },
+  {
+    "name": "Tier 2 Edtech Buyer Case",
+    "prompt": "Evaluate an online tutoring service for Tier 2 and Tier 3 Indian students. Students prefer Hindi, but parents pay and care about exam outcomes.",
+    "expected_outputs": [
+      "Tier 2",
+      "Tier 3",
+      "Hindi",
+      "Parents",
+      "Affordability",
+      "Competition"
+    ]
+  }
+]

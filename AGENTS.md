@@ -19,6 +19,14 @@ india-startup-validator-skill/
 ├── CONTRIBUTING.md
 ├── AGENTS.md
 ├── kilo.json
+├── package.json                       # Optional npx installer metadata
+├── pyproject.toml                     # Optional uvx installer metadata
+├── bin/
+│   └── install.js                     # Copies the skill into a Kilo skills directory
+├── src/
+│   └── india_startup_validator_skill/
+│       ├── __init__.py
+│       └── install.py                 # uvx installer entry point
 ├── skills/
 │   └── india-startup-validator/
 │       ├── SKILL.md                       # Main skill file (9 phases)

@@ -10,35 +10,96 @@ This skill provides a structured, multi-phase validation workflow that helps fou
 
 ## Installation
 
-### 1. Project-local Install (Recommended)
+### 1. One-command Install With npx
+
+Install directly from GitHub:
+
+```bash
+npx github:paulpriyam/startup-validate
+```
+
+This installs the skill into the current project's `.kilo/skills/india-startup-validator` directory.
+
+To install globally for your user:
+
+```bash
+npx github:paulpriyam/startup-validate --global
+```
+
+To overwrite an existing installed copy:
+
+```bash
+npx github:paulpriyam/startup-validate --force
+```
+
+If the package is later published to npm, the command becomes:
+
+```bash
+npx india-startup-validator-skill
+```
+
+### 2. One-command Install With uv
+
+If you prefer Python tooling, install directly from GitHub with `uvx`:
+
+```bash
+uvx --from git+https://github.com/paulpriyam/startup-validate india-startup-validator-skill
+```
+
+This installs the skill into the current project's `.kilo/skills/india-startup-validator` directory.
+
+To install globally for your user:
+
+```bash
+uvx --from git+https://github.com/paulpriyam/startup-validate india-startup-validator-skill --global
+```
+
+To overwrite an existing installed copy:
+
+```bash
+uvx --from git+https://github.com/paulpriyam/startup-validate india-startup-validator-skill --force
+```
+
+If the package is later published to PyPI, the command becomes:
+
+```bash
+uvx india-startup-validator-skill
+```
+
+### 3. Project-local Install
 Copy the `skills/india-startup-validator` directory into your project's `.kilo/skills/` folder.
 
 ```bash
 mkdir -p .kilo/skills
-cp -r path/to/india-startup-validator-skill/skills/india-startup-validator .kilo/skills/
+cp -r path/to/startup-validate/skills/india-startup-validator .kilo/skills/
 ```
 
-### 2. Global/External Install
+### 4. Global/External Install
 Clone this repository and add the `skills` path to your `kilo.json`:
 
 ```json
 {
   "skills": {
-    "paths": ["/path/to/india-startup-validator-skill/skills"]
+    "paths": ["/path/to/startup-validate/skills"]
   }
 }
 ```
 
-### 3. Git Submodule Install
+### 5. Git Submodule Install
 Add the repository to the consuming project and expose the skill through its `.kilo/skills/` directory:
 
 ```bash
-git submodule add https://github.com/YOUR-ORG/india-startup-validator-skill.git .kilo/india-startup-validator-skill
+git submodule add https://github.com/paulpriyam/startup-validate.git .kilo/india-startup-validator-skill
 mkdir -p .kilo/skills
 ln -s ../india-startup-validator-skill/skills/india-startup-validator .kilo/skills/india-startup-validator
 ```
 
-Replace `YOUR-ORG` with the published GitHub owner or organization.
+### Recommended Install Method
+
+- Use `uvx` if you already use Python tooling.
+- Use `npx` if you prefer Node tooling.
+- Use a git submodule if you want pinned, reviewable updates in a project repository.
+- Use `skills.paths` if you want one shared local clone for multiple projects.
 
 ## Usage
 

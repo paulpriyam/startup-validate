@@ -1,0 +1,26 @@
+{
+  "name": "india-startup-validator-skill",
+  "version": "0.1.0",
+  "description": "Kilo skill for validating startup ideas in the Indian market.",
+  "license": "MIT",
+  "bin": {
+    "india-startup-validator-skill": "./bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "kilo",
+    "skill",
+    "startup",
+    "validation",
+    "india",
+    "ai-agent"
+  ],
+  "engines": {
+    "node": ">=16"
+  }
+}
